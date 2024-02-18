@@ -8,6 +8,7 @@ public class VtsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(VtsApplication.class, args);
+		System.out.println("Hi");
 	}
 
 }
