@@ -1,4 +1,4 @@
-package model;
+package com.hj.VTS.model;
 
 import jakarta.persistence.*;
 
