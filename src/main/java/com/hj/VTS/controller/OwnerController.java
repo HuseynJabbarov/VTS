@@ -19,6 +19,7 @@ public class OwnerController {
     @GetMapping("/owners")
     public String listOwners(Model model) {
         List<OwnerDto> owners = ownerService.findAllClubs();
-        model.
+        model.addAttribute("owners", owners);
+        return "owners-list";
     }
 }
